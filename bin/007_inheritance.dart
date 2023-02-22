@@ -1,7 +1,7 @@
 import 'package:test_dart/hero.dart';
-import 'package:test_dart/monster.dart';
-import 'package:test_dart/monster_ikan.dart';
-import 'package:test_dart/monster_kecoa.dart';
+import 'package:test_dart/007_monsters.dart';
+import 'package:test_dart/007_monster_ikan.dart';
+import 'package:test_dart/007_monster_kecoa.dart';
 
 void main(List<String> args) {
   // Hero heroA = Hero();
