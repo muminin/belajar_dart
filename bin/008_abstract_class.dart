@@ -1,14 +1,23 @@
+import 'package:test_dart/flying_monster.dart';
 import 'package:test_dart/monster_ikan.dart';
+import 'package:test_dart/monster_ikcoa.dart';
 import 'package:test_dart/monster_kecoa.dart';
 import 'package:test_dart/monsters.dart';
 
 void main(List<String> args) {
+  // ? Beda extends dan implement
+  // extends hanya bisa menggunakan 1 Class
+  // implement bisa memanggil beberapa Class, ie: implements ClassA, ClassB
+
   List<Monster> monsters = [];
 
   monsters.add(MonsterIkan());
   monsters.add(MonsterKecoa());
+  monsters.add(MonsterIkcoa());
 
   for (Monster mon in monsters) {
-    print(mon.move());
+    if (mon is FlyingMonster) {
+      print((mon as FlyingMonster).fly());
+    }
   }
 }
