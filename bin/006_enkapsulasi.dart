@@ -1,5 +1,5 @@
 import 'dart:io';
-import '../lib/persegi_panjang.dart';
+import '../lib/006_persegi_panjang.dart';
 
 void main(List<String> args) {
   PersegiPanjang kotak1, kotak2;
