@@ -1,8 +1,8 @@
-import 'package:test_dart/flying_monster.dart';
-import 'package:test_dart/monster_ikan.dart';
-import 'package:test_dart/monster_ikcoa.dart';
-import 'package:test_dart/monster_kecoa.dart';
-import 'package:test_dart/monsters.dart';
+import 'package:test_dart/008_flying_monster.dart';
+import 'package:test_dart/008_monster_ikan.dart';
+import 'package:test_dart/008_monster_ikcoa.dart';
+import 'package:test_dart/008_monster_kecoa.dart';
+import 'package:test_dart/008_monsters.dart';
 
 void main(List<String> args) {
   // ? Beda extends dan implement

@@ -1,4 +1,4 @@
-import 'package:test_dart/monsters.dart';
+import 'package:test_dart/008_monsters.dart';
 
 class MonsterIkan extends Monster {
   String swim() => "Ngelangi...";

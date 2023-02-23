@@ -1,5 +1,5 @@
-import 'package:test_dart/flying_monster.dart';
-import 'package:test_dart/monsters.dart';
+import 'package:test_dart/008_flying_monster.dart';
+import 'package:test_dart/008_monsters.dart';
 
 // implements (Interface) mengimplementasikan method/function Class yang dipakai
 class MonsterKecoa extends Monster implements FlyingMonster {
