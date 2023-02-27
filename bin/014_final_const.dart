@@ -11,6 +11,16 @@
 // Harus langsung diinisialisasi atau lewat constructor
 // Referencenya bisa dipakai dimana saja
 
+/** CONST
+ * Literal constant (nilai yang langsung diinisialisasi) ex: double x = 2.5;
+ * Symbolic constant (constant yang diberikan simbol/nama) ex: const x = 2.5;
+ * Nilainya selalu diasosiasikan dengan Object yang sama
+ * Built once at compile time
+ * Can be declared only at top-level or as static/local variable
+ */
+
+const pi = 3.14; // Constant at Top Level
+
 void main(List<String> args) {
   // final int x = 5; // Final Object
 
@@ -22,9 +32,12 @@ void main(List<String> args) {
 
 class RegularClass {
   final int number;
+  static const myConst = 12; // Constant pada Static Keyword
 
   // Final set on Constructor
-  RegularClass({this.number});
+  RegularClass({this.number}) {
+    const anotherConst = 14;
+  }
 }
 
 class ConstClass {
